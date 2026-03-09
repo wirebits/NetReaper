@@ -106,8 +106,8 @@ void showHelp() {
   Serial.println("\nAvailable Commands:");
   Serial.println("  scan        - Scan for nearby WiFi networks");
   Serial.println("  deauth X    - Start deauth attack on network X (X = Index Number)");
-  Serial.println("  deauth off  - Stop deauth attack\n");
-  Serial.println("  help        - Show this help message\n");
+  Serial.println("  deauth off  - Stop deauth attack");
+  Serial.println("  help        - Show this help message");
 }
 
 void handleSerial() {
